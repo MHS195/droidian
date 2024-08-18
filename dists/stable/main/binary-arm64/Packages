@@ -1,0 +1,139 @@
+Package: adaptation-htc-oce
+Version: 0.0.0+git20240816120216.636c57d.bookworm
+Architecture: arm64
+Maintainer: MHS195  <m.hamdisharaf@gmail.com>
+Installed-Size: 9
+Depends: adaptation-hybris-api29-phone, adaptation-htc-oce-configs (= 0.0.0+git20240816120216.636c57d.bookworm)
+Filename: packages/adaptation-htc-oce_0.0.0+git20240816120216.636c57d.bookworm_arm64.deb
+Size: 2124
+MD5sum: 9f34251b0d92c5891a222c70d3bf022d
+SHA1: e6b9b04226e87012f6093148c2911250dfd3dc5b
+SHA256: b5034a2d275d1177959c6bea20c0b5f19487daeeef3d429afea1e08f83a120c1
+Section: metapackages
+Priority: optional
+Description: Community adaptation for htc-oce - metapackage
+
+Package: adaptation-htc-oce-configs
+Source: adaptation-htc-oce
+Version: 0.0.0+git20240816120216.636c57d.bookworm
+Architecture: arm64
+Maintainer: MHS195  <m.hamdisharaf@gmail.com>
+Installed-Size: 295
+Filename: packages/adaptation-htc-oce-configs_0.0.0+git20240816120216.636c57d.bookworm_arm64.deb
+Size: 276440
+MD5sum: a2f58dc331cb0bcad715820bc9830447
+SHA1: 7920fde4601a2d81dee735af28e322af303b0733
+SHA256: 0e42a6a158da5d951bd546653581defde83710fc42180eabac444898c8cbf4d3
+Section: metapackages
+Priority: optional
+Description: Community adaptation for htc-oce - adaptation configurations
+
+Package: linux-bootimage-3.18-140-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 70694
+Pre-Depends: flash-bootimage (>= 4)
+Depends: linux-image-3.18-140-htc-oce (= 0.0.0+git20240810110455.86d5787.droidian)
+Filename: packages/linux-bootimage-3.18-140-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 54106240
+MD5sum: 32c0383c8f5710319fbe886ac9208fa2
+SHA1: 4307fa1019e34409eaf648afda5a75f0bed9f70b
+SHA256: 7623aa260285442ed4d6dbcba309c07a7e97adcecb5dfbfd1ccf8667a873b1b2
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra - Android Boot Image
+ This package contains the Linux kernel for the HTC U-Ultra device.
+ .
+ Note: This package ships an Android Boot Image bundled with Halium's
+ initramfs.
+
+Package: linux-bootimage-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 38
+Depends: linux-bootimage-3.18-140-htc-oce (= 0.0.0+git20240810110455.86d5787.droidian)
+Filename: packages/linux-bootimage-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 33660
+MD5sum: 6c24bb88b718a08ebeeebc3f7ed67f3e
+SHA1: 4057b0844ddad7f2a23cb08139406b26ee9ce28b
+SHA256: 0774e2d33d9b8db67a0d78bc132f5411c5e390abab31a06dcd3034a544e08f0d
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra - Android Boot Image  (latest)
+ This package depends to the latest kernel bootimage available for the HTC U-Ultra.
+
+Package: linux-headers-3.18-140-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 45055
+Depends: linux-image-3.18-140-htc-oce (= 0.0.0+git20240810110455.86d5787.droidian)
+Filename: packages/linux-headers-3.18-140-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 7110632
+MD5sum: 4d77099078d5f5cc2746f6ec9a83d693
+SHA1: 490dab1419eb735f8221dcd3e7448fd0e86be43d
+SHA256: 3785cfa765548ea0debc44dac6744cc212ad1c5b82506df8261edaebff1831be
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra - Headers
+ This package contains the Linux kernel headers for the HTC U-Ultra device.
+
+Package: linux-headers-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 38
+Depends: linux-headers-3.18-140-htc-oce (= 0.0.0+git20240810110455.86d5787.droidian)
+Filename: packages/linux-headers-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 33648
+MD5sum: bb96e272c96499e096bfccab960381c8
+SHA1: 6111e1c454c548a27adcd16d3e5e18ddaec8bb55
+SHA256: 4a1a4d046d558a43bd9dadedb072705df2060f0d6556df0acc6e9ff1f69c239b
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra - Headers (latest)
+ This package depends to the latest kernel headers available for the HTC U-Ultra.
+
+Package: linux-image-3.18-140-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 25827
+Filename: packages/linux-image-3.18-140-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 11536188
+MD5sum: c602f916f1862d75a4d26899d79e76a9
+SHA1: a31f4f01e53e6ab48a225f27fc81fcd9f76aeee6
+SHA256: 9510e4a60133837f50484fdb9208bafe46d2e76bbd314c56de274a0b8056df11
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra
+ This package contains the Linux kernel for the HTC U-Ultra device.
+ .
+ Note: This package only ships the kernel image and modules, you should probably
+ look at the linux-bootimage-3.18-140-htc-oce package for a bootimage suitable
+ for Android boot loaders.
+
+Package: linux-image-htc-oce
+Source: linux-android-htc-oce
+Version: 0.0.0+git20240810110455.86d5787.droidian
+Architecture: arm64
+Maintainer: Droidian porters <info@droidian.org>
+Installed-Size: 38
+Depends: linux-image-3.18-140-htc-oce (= 0.0.0+git20240810110455.86d5787.droidian)
+Filename: packages/linux-image-htc-oce_0.0.0+git20240810110455.86d5787.droidian_arm64.deb
+Size: 33644
+MD5sum: 172cd490ee22d6d52a0c398993eab400
+SHA1: 92e1569816731e27844932de2291218dc23e095e
+SHA256: c2bcc79ab860aaf52967e1a341794c85b0cdc530b44fb3f8c1617a693a9b82e4
+Section: kernel
+Priority: optional
+Description: Linux kernel for HTC U-Ultra (latest)
+ This package depends to the latest kernel image available for the HTC U-Ultra.
+

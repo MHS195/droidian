@@ -1,0 +1,44 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: https://MHS195.github.io/droidian
+Label: Droidian PKG
+Suite: stable
+Codename: stable
+Version: 1.0
+Architectures: arm64
+Components: main
+Description: Packages 
+Date: Sun, 18 Aug 2024 17:44:52 +0000
+MD5Sum:
+ ebb481b69bcccdf195ff817ddca0ee85              205 Release
+ bee3054462453b29f93853174c9fec4d             5826 main/binary-arm64/Packages
+ 7342f92bca404fb52e22c6e9923835be             1582 main/binary-arm64/Packages.gz
+SHA1:
+ 84f37c4658fae7127bcbb5bd85fac4fe07cae1b3              205 Release
+ da477b4bada4736e4092367a7bd767d44e8dd828             5826 main/binary-arm64/Packages
+ 0722599eac7fdbe2c1d409f202846abef2a908d3             1582 main/binary-arm64/Packages.gz
+SHA256:
+ 3bad6f83f02634d9dd903ae7f6764c023f5d4f0eae0588125f6b097637055c3d              205 Release
+ 0bb8ffc80bc6147606dd0b78f7426395b32fe2b8ef98ec015d9e3b41ea6d5702             5826 main/binary-arm64/Packages
+ 84d39db6b4d200a067272459e01fa47220e0f97eaa4eaa016b8c172c6ce0572a             1582 main/binary-arm64/Packages.gz
+SHA512:
+ 49f74990c90825d2ac5312f5ece7e78cc31395433482b169ac68f07f5a473e5aec010f5ca22a112f16534b51c8477c6adffcbae287962ad34e1a95cb8ed46b62              205 Release
+ bb4dcca5d2745979126169463003caa204a3253d7a975247ee3b6129423dbdd03c32b3a27e4615811ddd46abc1dff9359f0d934a891ce0aec8cbf691c771b5cd             5826 main/binary-arm64/Packages
+ d4f6bed8d400cd5823e53dd241371fc8f01ae6eb6cf8d76ca63db16a7629ae80b8d310cb02147486cf75110e16e1bb8da44fe02adb401c3220d2efef726632ee             1582 main/binary-arm64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEVkGu+vUZkzAuQCAfNLS3DARpQWQFAmbCMxUACgkQNLS3DARp
+QWTpFg//YWseHdFoWIu3dwuTPm6xqB4vCUmH/qDTtSWXqEYwzhXIY1UqBgwVU79U
+VG7jns4WkKqMwessPbb61sCgpObIvNmg7ZXDr5uUrhxOdzViYqrWiJo7fa1T4Y4v
+jMsn0P0timhQS7mCJkXnL2Iyu6t+ILlOosJRw3NTsQgDhyNKBKTeZwogy2l5o+WY
+NoNjF1N01C9cio3jxrKPLRfrGeRu951dB5RtRy3YHeqvVvNd6V296pfE1pELu0e7
+ffzq8IfVqEf+EScxBc1LtpM1DulxHzbpSCIkm3CXDmXtUH+6ksgxaH4Tyg+XbOS+
+AnqREBMQ7XzDGgUJB9w55ZkUCpDrfL6jCNiSjfywiDix+Dp031kgvV4v8lGsmmHy
+EPd2cRUZlwm42LBoTWB2cTu7+uNpWnmu3g1faCqwVVE95kYnNhl7wtdT6HmyCkuL
+A70JMllI60t+LlZORFDH/ZrBOgYR/roB/db9Dm1rcvSp08pfyCFfpP7kfkK7+xP9
+VYrfYq1U6Gmr9NeN7kB8Z1rlpI+hT4ZfBMTletlLaeCeU9R0jaxNVxjwOKadnCY6
+9VrUUNeHTz8nqAghfdnWEPTkEMi+yoUcf3EKUzd+BE7jGiP7DNBvW76VKMa2YwzM
+r+ONMwXh1qR3SUwDuGI9or8w5HiSQdxH81kzOhE2XfQFvRxNQss=
+=Wmyj
+-----END PGP SIGNATURE-----
